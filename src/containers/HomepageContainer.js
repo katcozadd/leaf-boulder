@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
+import HomeSlider from '../components/HomeSlider';
 
 
 class HomepageContainer extends Component {
   render() {
     return (
       <div>
-      <h1>Homepage</h1>
+      	<HomeSlider />
       </div>
     );
   }

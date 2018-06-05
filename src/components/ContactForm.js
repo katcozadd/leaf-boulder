@@ -32,7 +32,7 @@ class ContactForm extends Component{
                       id="lastNameInput" />
                       </label>
                     </div>
-                    <div className="six columns">
+                    <div >
                       <label htmlFor="emailInput">Your email
                       <input 
                       name = "email"
@@ -42,7 +42,7 @@ class ContactForm extends Component{
                       id="emailInput" />
                       </label>
                     </div>
-                    <div className="six columns">
+                    <div >
                       <label htmlFor="recipientInput">Subject
                       <br />
                       <input 
@@ -61,8 +61,8 @@ class ContactForm extends Component{
                   placeholder="ex. Hi there, we visited your restaurant..." 
                   id="exampleMessage">
                   </textarea>
-                  <input  type="submit" value="Submit"/>
                   </label>
+                  <input id="button" type="submit" value="Submit"/>
                 </form>
             </section>
         </div>

@@ -2,3 +2,11 @@
 	width: 80%;
 	margin: 0 auto;
 }
+
+label {
+	text-align: left;
+	margin-bottom: 1em;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+
+}
