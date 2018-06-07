@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../components/ContactForm.css';
 import fire from "../fire";
-import axios from 'axios'
+import axios from 'axios';
 
 
 

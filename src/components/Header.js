@@ -19,9 +19,10 @@ class Header extends Component{
     return (
 	<nav className="topnav" id="myTopnav">
 		<Link to ="/" id="home-link">LEAF</Link>
-		<Link to={'/about'} className="links about">about</Link>
+		<Link to={'/about'} className="links">about</Link>
 		<Link to={'/brunch'} className="links">menu</Link>
 		<Link to={'/services'} className="links">services</Link>
+		<Link to={'/contact'} className="links">contact</Link>
 		<a href="javascript:void(0);" className="icon" onClick={this.myFunction}>
 			<i className="fa fa-bars"><img className="icon" id='logo' src={menu} alt="menu"/></i>
 		</a>
