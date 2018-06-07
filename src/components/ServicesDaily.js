@@ -18,11 +18,6 @@ class ServicesDaily extends Component{
                     <li>* Brunch: Saturday & Sunday 10am – 3pm</li>
                     <li>* Happy Hour: 3pm – 6pm…every day</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet perspiciatis suscipit 
-                doloribus explicabo tempora, eveniet, ratione, reiciendis vero fugit earum quaerat sunt maiores 
-                quisquam recusandae incidunt a, eos sit temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Amet perspiciatis suscipit doloribus explicabo tempora, eveniet, ratione, reiciendis vero fugit earum 
-                quaerat sunt maiores quisquam recusandae incidunt a, eos sit temporibus.</p> 
             </div>
         </section>
     )

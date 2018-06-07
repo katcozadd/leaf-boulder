@@ -33,6 +33,7 @@ class Footer extends Component{
 					<li><Link to={'/services'} className="footer-links">services</Link></li>
 					<li><Link to={'/menu'} className="footer-links">menu</Link></li>
 					<li><Link to={'/contact'} className="footer-links">contact</Link></li>
+					<li><Link to={'/contact'} className="footer-links">apply</Link></li>
 				</ul>
 			</div>
 			<div className="col span_1_of_4">
