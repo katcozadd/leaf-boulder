@@ -1,11 +1,13 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import MenuNav from '../components/MenuNav';
 
 
 class MenuPageContainer extends Component {
   render() {
     return (
       <div>
-      <h1>Menu Page</h1>
+      <h2>Leaf Vegetarian Restaurant offers...</h2>
+      <MenuNav />
       </div>
     );
   }

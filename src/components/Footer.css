@@ -1,0 +1,86 @@
+footer {
+	background: #97AA74;
+	font-size: 100%;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 10%;
+}
+
+.footer-links {
+	font-size: 100%;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 10%;
+}
+
+#logo-full {
+	width: 100%;
+	height: auto;
+}
+
+.location a {
+	text-decoration: none;
+	color: #fff
+}
+
+.location a:hover {
+	color: #1EAEDB;
+}
+
+
+.footer-urls a {
+	font-size: 100%;
+	color: #000;
+	text-decoration: none;
+	margin-bottom: 10%;
+}
+
+.footer-urls a:hover {
+	color: #1EAEDB;
+}
+
+.footer-header {
+	color: #fff;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.3%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.67%;
+}
+.span_2_of_4 {
+	width: 49.35%;
+}
+.span_1_of_4 {
+	width: 24.02%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}

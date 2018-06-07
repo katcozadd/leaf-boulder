@@ -1,6 +1,6 @@
 ul li {
 	list-style-type: none;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 .textfield {
@@ -70,4 +70,9 @@ img {
 	color: #000000;
 	font-weight: lighter;
 	margin: 90px auto;
+}
+
+#wedding {
+	padding: 0;
+	margin-bottom: 2rem;
 }

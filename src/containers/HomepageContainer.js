@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import HomeSlider from '../components/HomeSlider';
+import HomepageContinued from '../components/HomepageContinued';
 
 
 class HomepageContainer extends Component {
@@ -7,6 +8,7 @@ class HomepageContainer extends Component {
     return (
       <div>
       	<HomeSlider />
+      	<HomepageContinued />
       </div>
     );
   }
