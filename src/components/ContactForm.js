@@ -60,7 +60,7 @@ class ContactForm extends Component{
       subject: this.state.newSubject,
       message: this.state.newMessage
     }
-    axios.post('https://acafeboise.herokuapp.com/contact', contactFormInfo)
+    axios.post('https://leaf-boulder.herokuapp.com/contact', contactFormInfo)
     .then(response => { 
       console.log(response)
       this.props.history.push('/contact');
