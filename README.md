@@ -62,6 +62,6 @@ I want to look into using a reservation API that will
 
 ### Deployment
 
-You can find my website deployed on [Firebase](https://leaf-vegetarian-restaurant.firebaseapp.com/)
+You can find my website deployed on [Surge](http://leafvegetarianboulder.surge.sh/)
 
 My backend is deployed on Firebase and on Heroku](https://github.com/katcozadd/leaf-boulder-backend)
